@@ -10,6 +10,7 @@
 
 ## Installation
 To get started, clone the repository and install the dependencies:
+I have also given a yolo.ipynb file for instructions
 
 ```bash
 git clone https://github.com/yourusername/Trespasser-Detection-DeepLearning.git
@@ -18,42 +19,26 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-Run the detection script on an image or video:
+Run the detection script on an image or video or using a webcam:
 
 ```bash
-python detect.py --input test_video.mp4
-```
-
-For real-time detection using a webcam:
-
-```bash
-python detect.py --live
+app.py 
 ```
 
 ## Project Structure
 ```
-Trespasser-Detection-DeepLearning/
-│── README.md
-│── LICENSE
-│── data/
-│   ├── raw/
-│   ├── processed/
-│── models/
-│   ├── trained_model.pth
-│   ├── model_architecture.py
-│── src/
-│   ├── train.py
-│   ├── detect.py
-│   ├── utils.py
-│── notebooks/
-│   ├── EDA.ipynb
-│   ├── Model_Training.ipynb
-│── results
+Trespasser-Detection/
 │── docs/
 │   ├── report.pdf
 │   ├── presentation.pptx
-│── data.yaml
+│── results
+│── valid
+│── README.dataset.txt
+│── README.md
 │── app.py
+│── best.pt
+│── data.yaml
+│── yolo.ipynb
 ```
 
 
