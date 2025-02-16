@@ -1,0 +1,13 @@
+train: C:\Users\ibaib\Videos\final\train\images
+val: C:\Users\ibaib\Videos\final\valid\images
+test: C:\Users\ibaib\Videos\final\test\images
+
+nc: 1
+names: ['Trespasser']
+
+roboflow:
+  workspace: trespasser-detection
+  project: trespasser-detection
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/trespasser-detection/trespasser-detection/dataset/3
